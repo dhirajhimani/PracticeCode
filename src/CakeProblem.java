@@ -14,6 +14,7 @@ public class CakeProblem {
             	max = temp;
             }
         }
+        in.close();
         int[] candles_count = new int[max];
         for(int height_i=0; height_i < n; height_i++){
         	candles_count[height[height_i] - 1 ]++;
