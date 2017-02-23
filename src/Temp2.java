@@ -1,12 +1,11 @@
-import java.util.Scanner;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-
-public class Temp2 extends Temp{
+public class Temp2 {
 
 	public static void main(String[] args) {
-		Logger.getGlobal().log(Level.SEVERE, new Temp2().TAG);
+		 Object object = "";
+	      if (object instanceof String) {
+	    	  System.out.println("Hi I am String");
+	      } else {
+	    	  System.out.println("Hi I am NUll");
+	      }
 	}
-
-
 }
